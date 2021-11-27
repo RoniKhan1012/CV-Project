@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:gainsboro;
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
+.container{
+    background-color: rgb(212, 232, 245);
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+h1,h2,h3,h4,h5,h6{
+    color:black;
+}
+.profile-image{
+    width: 100px;
+    height: 120px;
+    border: 3px solid white;
+    border-radius: 50px;
+    margin: 10px;
+    float: left;
+}
+.header-bio{
+    padding: 30px;
+    float: left;
+}
+.header-contact{
+    float:right;
+    padding: 30px;
+}
+.header-contact a{
+    text-decoration: none;
+    font-weight: bold;
+    color: teal;
+
+}
+.header-contact a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    color: tomato;
+}
+.div-clear{
+    clear: both;
+}
+hr{
+    border: solid  black 5px;
+    border-bottom: none;
+    width: auto;
+    margin: 20px auto;
+}
+/*Personal section start*/
+
+/*Work Experience section start*/
+
+#personal-info{
+
+}
+.content{
+    padding-left: 10px;
+    margin-bottom: 30px;
+
+}
+.left-div{
+    width: 30%;
+    float: left;
+}
+.right-div{
+    width: 70%;
+    float: left;
+}
+.common-hr{
+    border: solid black 1px;
+    width: 100%;
+    margin: 20px auto;
+    border-bottom: none;
+}
+/*Work Experience section end*/
+
+/*Education Section Start*/
+
+.Education-1{
+    float: left;
+    width: 50%;
+}
+.Education-1{
+    float: left;
+    width: 50%;
+}
+
+/*Education Section End*/
+
+/*Footer Start*/
+    .footer{
+        background-color: black;
+        margin-top: 20px;
+        text-align: center;
+        padding:10px;
+    }
+    .footer a{
+        margin: 30px;
+        color: white;
+        text-decoration: none;
+    }
+    .footer p{
+        margin-top: 20px;
+        color: white;
+        margin-bottom: 20;
+    }
+/*Footer End*/
